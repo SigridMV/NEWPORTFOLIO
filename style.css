@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+header {
+  background-color: #5D2E46;
+  color: #fff;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header .menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+header .menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu li {
+  margin-left: 20px;
+}
+
+header .menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+header .menu.active {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  header .menu-toggle {
+    display: block;
+  }
+
+  header .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #AD6A6C;
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  header .menu li {
+    margin: 10px 0;
+  }
+
+  header .menu a {
+    color: #fff;
+  }
+
+  header .menu-toggle:checked + .menu {
+    display: flex;
+  }
+}
+
+/* Estilos del perfil */
+#profile {
+  background-color: #f9f9f9;
+  padding-top: 40px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+#profile .profile-info {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#profile h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#profile p {
+  font-size: 18px;
+  color: #777;
+}
+
+#profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #AD6A6C;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #D0ADA7;
+}
+
+/* Estilos de la sección de experiencia */
+#experience {
+  padding: 10px 0;
+}
+
+#experience h2 {
+  font-size: 24px;
+}
+
+#experience ul {
+  padding: 0;
+}
+
+#experience li {
+  margin-bottom: 20px;
+}
+
+#experience h3 {
+  font-size: 20px;
+}
+
+#experience p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Estilos de la sección de educación */
+#education {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+#education h2 {
+  font-size: 24px;
+}
+
+#education ul {
+  padding: 0;
+}
+
+#education li {
+  margin-bottom: 20px;
+}
+
+#education h3 {
+  font-size: 20px;
+}
+
+#education p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Estilos adicionales para dispositivos móviles */
+@media (max-width: 768px) {
+  #profile .profile-info {
+    max-width: 100%;
+  }
+
+  #profile img {
+    width: 100px;
+    height: 100px;
+  }
+}
