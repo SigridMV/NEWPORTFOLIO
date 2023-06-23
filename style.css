@@ -68,6 +68,8 @@ header .menu.active {
   display: flex;
 }
 
+
+
 /* Estilos del perfil */
 #profile {
   background-color: #f9f9f9;
@@ -167,7 +169,7 @@ header .menu.active {
 
 /* Estilos del pie de página */
 footer {
-  background-color: #A2C3EF;
+  background-color: grey;
   padding: 20px 0;
   text-align: center;
   font-size: 14px;
@@ -209,6 +211,7 @@ footer {
 
   header .menu li {
     margin: 10px 0;
+    list-style: none;
   }
 
   header .menu a {
