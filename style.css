@@ -12,7 +12,7 @@ body {
 
 /* Estilos de la barra de navegación */
 header {
-  background-color: #5d2e46;
+  background-color: #1670BB;
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ header .menu.active {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ad6a6c;
+  background-color: #5D98E1;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -109,7 +109,7 @@ header .menu.active {
 }
 
 .button:hover {
-  background-color: #d0ada7;
+  background-color: #A2C3EF;
 }
 
 /* Estilos de la sección de experiencia */
@@ -167,11 +167,11 @@ header .menu.active {
 
 /* Estilos del pie de página */
 footer {
-  background-color: #f4f4f4;
+  background-color: #A2C3EF;
   padding: 20px 0;
   text-align: center;
   font-size: 14px;
-  color: #777;
+  color: #fff;
 }
 
 /* Estilos adicionales para dispositivos móviles */
@@ -181,7 +181,7 @@ footer {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    background-color: #ad6a6c;
+    background-color: #5D98E1;
     padding: 20px;
     position: absolute;
     top: 60px;
