@@ -100,6 +100,11 @@ header .menu.active {
   margin-bottom: 20px;
 }
 
+#profile .profile-info a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .button {
   display: inline-block;
   padding: 10px 20px;
