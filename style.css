@@ -182,7 +182,7 @@ footer {
 }
 
 /* Estilos adicionales para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   header .menu {
     display: none;
     flex-direction: column;
